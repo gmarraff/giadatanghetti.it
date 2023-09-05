@@ -1,10 +1,12 @@
-url: https://y7kim.github.io
+url: https://giadatanghetti.it/
 baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Giada Tanghetti – Musicoterapeuta, Educatrice & Cantante
+title: Giada Tanghetti - Musicoterapeuta, Educatrice & Cantante
 email: tanghettigiada@gmail.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Giada Tanghetti - Musicoterapeuta, Educatrice & Cantante. Opera in provincia di Brescia, sul lago di Garda (Salò). Attualmente educatrice presso la scuola dell'infanzia \"Mariuccia Castellani\" di Montegargnano."
+keywords: giada, tanghetti, musicoterapia, propedeutica, educazione, infanzia, asilo, musicoterapeuta, canto, cantante, salò, brescia, garda, lago
+
 
 
 # Team names, titles and social links
