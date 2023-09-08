@@ -4,6 +4,7 @@ color:
   secondary: 609ba6
   secondary-dark: 333
   muted: 777
+  navbar: 053b50
 
 # Font Families
 font:
