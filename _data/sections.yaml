@@ -1,10 +1,14 @@
 - id: about-me
   title: Su Di Me
+  class: bg-light-gray
 - id: activities
   title: Attività
+  class: ""
 - id: instagram-feed
   title: Ultime Novità
+  class: bg-light-gray
 - id: my-story
   title: La Mia Storia
+  class: ""
 - id: contact
   title: Contatti
