@@ -7,32 +7,6 @@ email: tanghettigiada@gmail.com
 description: "Giada Tanghetti - Musicoterapeuta, Educatrice & Cantante. Opera in provincia di Brescia, sul lago di Garda (Salò). Attualmente educatrice presso la scuola dell'infanzia \"Mariuccia Castellani\" di Montegargnano."
 keywords: giada, tanghetti, musicoterapia, propedeutica, educazione, infanzia, asilo, musicoterapeuta, canto, cantante, salò, brescia, garda, lago
 
-
-
-# Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: instagram
-    url: https://www.instagram.com/musicoterapiacongiada/
-  - title: facebook
-    url: https://www.facebook.com/giadatanghettisinger/
-  - title: youtube
-    url: https://www.youtube.com/channel/UCzOK54nkaSUmJSkzIy06u8A
-  - title: linkedin
-    url: https://www.linkedin.com/in/gianluca-marraffa/
-
 # Postal address (add as many lines as necessary)
 address:
   - line: Centro FA.BA
