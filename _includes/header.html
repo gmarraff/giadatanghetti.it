@@ -36,7 +36,14 @@
             <div class="intro-text">
                 <div class="intro-heading">Giada Tanghetti</div>
                 <div class="intro-lead-in">Musicoterapeuta, Educatrice & Cantate</div>
-                <a href="#activities" class="page-scroll btn btn-xl">Scopri le mie Attività</a>
+                <ul class="list-inline social-buttons">
+                    {% for network in site.data.template.social %}
+                    <li><a href="{{ network.url }}" target="_blank"><i class="fa-brands fa-{{ network.title }}"></i></a>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                <br/><a href="#activities" class="page-scroll btn btn-xl">Scopri le mie Attività</a>
             </div>
         </div>
     </header>

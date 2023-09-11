@@ -11,3 +11,13 @@ color:
 font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+
+social:
+  - title: instagram
+    url: https://www.instagram.com/musicoterapiacongiada/
+  - title: facebook
+    url: https://www.facebook.com/giadatanghettisinger/
+  - title: youtube
+    url: https://www.youtube.com/channel/UCzOK54nkaSUmJSkzIy06u8A
+  - title: linkedin
+    url: https://www.linkedin.com/in/gianluca-marraffa/
