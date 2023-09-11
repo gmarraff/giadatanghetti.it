@@ -662,7 +662,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #{{ site.data.template.color.navbar }};
     background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;

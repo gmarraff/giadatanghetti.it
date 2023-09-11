@@ -5,13 +5,12 @@
 
 
     <body id="page-top" class="index">
-
     {% include header.html %}
-    {% include team.html %}
-    {% include services.html %}
-    {% include instagram_feed.html %}
-    {% include about.html %}
-    {% include contact.html %}
+
+    {% for section in site.data.sections %}
+      {% include {{ section.id }}.html %}
+    {% endfor %}
+
     {% include footer.html %}
     {% include js.html %}
 

@@ -5,6 +5,7 @@ color:
   secondary-dark: 333
   muted: 777
   navbar: 053b50
+  palette: https://colorhunt.co/palette/053b50176b8764ccc5eeeeee
 
 # Font Families
 font:

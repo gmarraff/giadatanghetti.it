@@ -18,22 +18,11 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+                    {% for section in site.data.sections %}
                     <li>
-                        <a class="page-scroll" href="#team">Su di Me</a>
+                        <a class="page-scroll" href="#{{ section.id }}">{{section.title}}</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Attività</a>
-                    </li>
-
-                    <!-- <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li> -->
-                    <li>
-                        <a class="page-scroll" href="#about">La mia storia</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contatti</a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
