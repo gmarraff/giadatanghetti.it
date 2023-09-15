@@ -9,11 +9,11 @@
         </div>
         <div class="row">
             <div class="col-lg-12 text-center">
-                {% if jekyll.environment == "production" %}
+                {% if jekyll.environment == "development" %}
+                <img src="{{ site.baseurl }}img/instagram-feed/dev.png" width="100%">
+                {% else %}
                 <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
                 <div class="elfsight-app-58dbd56e-5527-4c6b-807a-4d8ec7d1c33b"></div>
-                {% else %}
-                <img src="{{ site.baseurl }}img/instagram-feed/dev.png" width="100%">
                 {% endif %}
             </div>
         </div>
