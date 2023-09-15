@@ -9,7 +9,7 @@ update:
 		bundle update
 
 build:
-	docker run --rm \
+	rm -rf ${PWD}/_site && docker run --rm \
 		-v "${PWD}:/srv/jekyll:Z" \
 		-v "${PWD}/vendor/bundle:/usr/local/bundle:Z" \
 		-e JEKYLL_ENV=$(ENV) \
@@ -21,6 +21,6 @@ serve:
 		-v "${PWD}:/srv/jekyll:Z" \
 		-v "${PWD}/vendor/bundle:/usr/local/bundle:Z" \
 		-e JEKYLL_ENV=$(ENV) \
-		-p [::1]:4000:4000 \
+		-p 4000:4000 \
 		jekyll/jekyll:$(JEKYLL_VERSION) \
 		jekyll serve
