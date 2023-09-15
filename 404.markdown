@@ -1,0 +1,6 @@
+---
+permalink: /404.html
+layout: error
+---
+<h4 class="service-heading" style="color:white;"> Ops, pagina non trovata!</h4>
+<a href="/" class="page-scroll btn btn-xl">Torna alla home</a>

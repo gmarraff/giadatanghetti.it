@@ -4,3 +4,4 @@
 
 layout: default
 ---
+<a href="#activities" class="page-scroll btn btn-xl">Scopri le mie Attività</a>
