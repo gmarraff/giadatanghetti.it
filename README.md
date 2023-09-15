@@ -1,30 +1,17 @@
-Agency Jekyll theme
+Giada Tanghetti
 ====================
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+Music Therapist, Educator & Singer.
 
-# How to use
+<https://giadatanghetti.it>
 
-###Portfolio 
+# About
 
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
+Jekyll website for landing page.
 
 
-# Demo
+# Architecture
 
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+Based on [Agency Jeckyll Theme](https://jekyllthemes.io/theme/agency-jekyll-theme).
 
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+Hosted on [AWS S3 Static Website](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html).
