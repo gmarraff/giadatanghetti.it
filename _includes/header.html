@@ -33,19 +33,16 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="intro-text">
-                <div class="intro-heading">Giada Tanghetti</div>
-                <div class="intro-lead-in">Musicoterapeuta, Educatrice & Cantante</div>
-                <ul class="list-inline social-buttons">
-                    {% for network in site.data.template.social %}
-                    <li><a href="{{ network.url }}" target="_blank"><i class="fa-brands fa-{{ network.title }}"></i></a>
-                    </li>
-                    {% endfor %}
-                </ul>
-
-                <br/>
-                {{ content }}
+        <div class="intro-text">
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="logo" src="{{ site.baseurl }}/img/header-bg.svg" alt="Musicoterapia con Giada, Logo"/>
+                </div>
+                <div class="col-md-12">
+                    <a href="#activities" class="page-scroll btn btn-xl">Scopri le mie Attività</a>
+                </div>
             </div>
+        </div>
         </div>
     </header>
 <!--
