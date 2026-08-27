@@ -1,3 +1,9 @@
 ---
 layout: style
 ---
+@media (min-width: 768px) {
+    #navbar-container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}

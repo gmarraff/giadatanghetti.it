@@ -7,6 +7,9 @@
 - id: instagram-feed
   title: Ultime Novità 📷​
   class: bg-light-gray
+- id: google-reviews
+  title: Dicono di me ✨​
+  class: bg-light-gray
 - id: my-story
   title: La Mia Storia ​📖​
   class: ""
